@@ -1,0 +1,75 @@
+#+Title: Emacs-keybind list
+* inits list
+  01_basic_settings.el
+  02_custom_settings.el
+  03_coding_settings.el
+  04_python_settings.el
+  05_tex_settings.el
+  06_R_settings.el
+* General
+| M-x shell       | launch shell on emacs     |
+| M-x term        | launch terminal on emacs  |
+| M-x eval-buffer | reflect the changes       |
+| C-x k           | kill buffer               |
+| C-x C-b         | show buffers              |
+| C-c C-c         | comment / uncomment       |
+| C-/             | oneline comment           |
+| C-tab           | tabbar forward            |
+| C-S-tab         | tabbar backward           |
+| C-o             | show tree (neo tree)      |
+| C-x m           | show minimap              |
+| C-x 0           | delete the current window |
+| C-x 1           | show the single window    |
+| C-x 2           | split window horizontally |
+| C-x 3           | split window vertically   |
+|                 |                           |
+
+* org-mode
+| tab (on titles) | show / hide lsit      |
+| * Shift-right   | TODO list             |
+| * Shift-left    | Done Todo list        |
+| Shift-up        | priority              |
+| M-up / M-down   | Change the list order |
+|                 |                       |
+|                 |                       |
+See more detail
+https://qiita.com/yynozk/items/8e45d97abc2d4fce8780
+https://qiita.com/yynozk/items/821ea2b1e20f575c222f  
+
+* Python mode
+| C-c C-z | launch python shell on emacs |
+| C-c C-c | run the current code         |
+|         |                              |
+
+* Python notebook (iPython)
+Before run python notebook, the jupyter note book servers must be ran.
+(bash) --> jupyter notebook 
+| M-x ein:notebooklist-login | open notebook           |
+| C-c C-c                    | run the selected cell   |
+| C-c C-a                    | create a new cell above |
+| C-c C-b                    | create a new cell below |
+| C-c C-k                    | delete the current cell |
+| C-c C-n                    | the previous cell       |
+| C-c C-p                    | the next cell           |
+| C-c C-s                    | split a cell            |
+| C-c C-m                    | marge a cell            |
+| C-c C-t                    | change a cell type      |
+| C-+                        | Create a new worksheet  |
+| C-c 1                      | move to worksheet 1     |
+| C-c                        | move to worksheet       |
+| C-c -                      | delete worksheet        |
+https://pod.hatenablog.com/entry/2017/08/06/220817
+  
+* Latex Mode (Yatex)
+  SCHEDULED: <2019-07-05 Fri>
+| keys    | Output           |
+|---------+------------------|
+| C-c t j | run latex        |
+| C-c s   | open Skim        |
+| C-c p   | math preview     |
+| C-c =   | preview sections |
+| C-c j   | math expression  |
+|         |                  |
+|         |                  |
+|         |                  |
+|         |                  |

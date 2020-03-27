@@ -22,7 +22,15 @@
 | C-x 1           | show the single window    |
 | C-x 2           | split window horizontally |
 | C-x 3           | split window vertically   |
+| f7              | tabbar backward           |
+| f8              | tabbar forward            |
 |                 |                           |
+
+* Text edit
+| C-k   | delete from cursor to the end of the line |
+| C-y   | paste a memory at the cursor location     |
+| C-x u | open undo-tree                            |
+|       |                                           |
 
 * org-mode
 | tab (on titles) | show / hide lsit      |

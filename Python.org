@@ -1,2 +1,19 @@
-* Build Environment
-* Pyenv + virtualenv
+* Pipenv
+| Command                         | Action                                                    |
+|---------------------------------+-----------------------------------------------------------|
+| pipenv --python 3               | initialize a directory                                    |
+| pipenv install [packages]       | install packages in the directory                         |
+| pipenv install --dev [packages] | install development tools in the directory                |
+| pipenv install                  | install packages from Pipfile                             |
+| pipenv install --dev            | install development tools from Pipfile                    |
+| pipenv sync                     | install packages from Pipfile.lock with specific versions |
+| pipenv sync --dev               | install development tools from Pipfile.lock with versions |
+| pipenv --venv                   | check the path for virtualenv                             |
+| pipenv --rm                     | delete virtual environment                                |
+| pipenv update                   | update installed packages                                 |
+| pipenv graph                    | check the list of the  installed packages                 |
+|                                 |                                                           |
+
+See more details in the link below:
+https://qiita.com/y-tsutsu/items/54c10e0b2c6b565c887a
+
